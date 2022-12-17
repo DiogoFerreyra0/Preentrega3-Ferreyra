@@ -1,0 +1,18 @@
+header .titulo {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+header body {
+  background-color: #f9f3df;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+header .contenedor {
+  width: 90%;
+  max-width: 1000px;
+  max-height: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: "header header header" "contenido contenido sidebar" "widget-1 widget-2 sidebar" "footer footer footer"; }
